@@ -232,8 +232,10 @@ header {
       align-items: center;
       background-color: transparent;
       border: 2px solid grey;
-      color: #494949;
-      min-height: 4em; }
+      color: #494949; }
+      @media (max-width: 425px) {
+        .schedule__card-wrapper .card.notify {
+          min-height: 4em; } }
       .schedule__card-wrapper .card.notify > div {
         padding: 0 0.25rem; }
 

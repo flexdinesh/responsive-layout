@@ -52,7 +52,10 @@
         background-color: transparent;
         border: 2px solid grey;
         color: $textPrimary;
-        min-height: 4em;
+        
+        @include breakpoint-small-down {
+          min-height: 4em;
+        }
 
         > div {
           padding: 0 0.25rem;
