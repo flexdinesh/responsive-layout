@@ -255,19 +255,28 @@ footer {
     display: flex;
     flex: 1 0 auto;
     align-items: center;
-    justify-content: flex-start; }
-  footer .circle {
-    width: 2em;
-    height: 2em;
-    border-radius: 50%;
-    line-height: 2em;
-    text-align: center;
-    color: darkgray;
-    border-color: darkgray;
-    background-color: transparent;
-    border: 1px solid darkgray;
-    margin-right: 0.75rem; }
-  footer .title {
-    color: darkgray; }
+    justify-content: flex-start;
+    height: 100%; }
+  footer .content-wrapper {
+    display: flex;
+    align-items: center;
+    flex: 1 0 auto; }
+    footer .content-wrapper .circle {
+      width: 2em;
+      height: 2em;
+      border-radius: 50%;
+      line-height: 2em;
+      text-align: center;
+      color: darkgray;
+      border-color: darkgray;
+      background-color: transparent;
+      border: 1px solid darkgray;
+      margin-right: 0.75rem; }
+    footer .content-wrapper .title {
+      color: darkgray; }
+  footer .author-ref {
+    font-size: 0.625em;
+    justify-self: flex-end;
+    align-self: flex-end; }
 
 /*# sourceMappingURL=index.css.map */
