@@ -4,7 +4,7 @@ This repo hold an example page for demonstrating layout responsive design, adopt
 
 The site is live and you can check it out here,
 
-Link - [Responsive Layout Design](http://responsivelayout.dkplayground.com.s3-website-us-east-1.amazonaws.com/)
+Link - [Responsive Layout Design](http://responsivelayout.dkbox.in)
 
 ## About
 
